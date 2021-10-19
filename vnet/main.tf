@@ -4,7 +4,10 @@
 
 /*
 This module deploys a single resource group and x amount of vnets to Azure
+- Also dynamically creates subnets 
 */
+
+
 
 resource "azurerm_virtual_network" "vnets" {
   // for each object in map var.vnets
